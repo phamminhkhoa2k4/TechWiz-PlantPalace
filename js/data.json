@@ -1,0 +1,653 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Pippa",
+      "description": "This is the description of Product 1.",
+      "price": 10.99,
+      "image1": "../assets/img/cjbnqexhcuzi0vytagx5.png",
+      "image2": "../assets/img/bli7jpf85nj5cna6jwfn.png",
+      "image3": "../assets/img/bkwazzklhjtl6puhzshe.png",
+      "category": "Flowering"
+    },
+    {
+      "id": 2,
+      "name": "Felicity",
+      "description": "Anthurium 'Spirit'; Tail flower; Flamingo flower; Laceleaf; Anthurium Andraeanum",
+      "price": 11.99,
+      "image1": "../assets/img/vuimgglvpppkq0vzdd20.png",
+      "image2": "../assets/img/wokrpqzk8atd6vwt31gn.png",
+      "image3": "../assets/img/njpauud0urad91gtzcym.png",
+      "category": "Flowering"
+    },
+    {
+      "id": 3,
+      "name": "Isla",
+      "description": "Phalaenopsis; moth orchid",
+      "price": 23.99,
+      "image1": "../assets/img/baw5kxcweug5fciec6g8.png",
+      "image2": "../assets/img/tjouclsemctwaqhzue22.png",
+      "image3": "../assets/img/iew1pihua9k1h6yxrulh.png",
+      "category": "Flowering"
+    },
+    {
+      "id": 4,
+      "name": "Fleur",
+      "description": "Tail flower; Flamingo flower; Laceleaf; Anthurium Andraeanum",
+      "price": 17.99,
+      "image1": "../assets/img/aunjqz1h26hno3kkxilb.png",
+      "image2": "../assets/img/si7n8m7lqzummn33m7kr.png",
+      "image3": "../assets/img/jeys5wvhjbbeouvk2rec.png",
+      "category": "Flowering"
+    },
+    {
+      "id": 5,
+      "name": "Sam",
+      "description": "Phalaenopsis; moth orchid",
+      "price": 23.99,
+      "image1": "../assets/img/rkyqdlbcrsys4ovtlijc.png",
+      "image2": "../assets/img/avb3ot0iblix6ekis4sa.png",
+      "image3": "../assets/img/r0rudqsmqd5ixyrsx7az.png",
+      "category": "Flowering"
+    },
+    {
+      "id": 6,
+      "name": "Vivi",
+      "description": "Lemon Tree",
+      "price": 54.99,
+      "image1": "../assets/img/mfmn4ta9wdrh6uqxdojf.png",
+      "image2": "../assets/img/lemon-tree-d77ad4.png",
+      "image3": "../assets/img/jrdri7pfbo5ypz3ns3rc.png",
+      "category": "Flowering"
+    },
+    {
+      "id": 7,
+      "name": "Jethro",
+      "description": "Lipstick Plant",
+      "price": 17.99,
+      "image1": "../assets/img/aeschynanthus-db7ae0.png",
+      "image2": "../assets/img/aysrld98mpbxlvjgyoam.png",
+      "image3": "../assets/img/aeschynanthus-db7c79.png",
+      "category": "Flowering"
+    },
+    {
+      "id": 8,
+      "name": "Lionel",
+      "description": "Citrus calamondin",
+      "price": 54.99,
+      "image1": "../assets/img/hga8nallyqz9czw8sngm.png",
+      "image2": "../assets/img/olh5ts6bgldc0ezhgoq9.png",
+      "image3": "../assets/img/iyvkr5qzeh4e81ulnb1d.png",
+      "category": "Flowering"
+    },
+    {
+      "id": 9,
+      "name": "Morticia",
+      "description": "Anthurium 'black love'; Tail flower; Flamingo flower; Laceleaf; Anthurium Andraeanum",
+      "price": 54.99,
+      "image1": "../assets/img/mdgezpmv4zuxxhivi3mv.png",
+      "image2": "../assets/img/q8ykpib7pvhhbvtr31d1.png",
+      "image3": "../assets/img/uvthqjx0pkmy3kz5wq3q.png",
+      "category": "Flowering"
+    },
+    {
+      "id": 10,
+      "name": "Reggie",
+      "description": "Strelitzia Reginae; Crane Flower",
+      "price": 11.99,
+      "image1": "../assets/img/rymf2pfpmsjih2nluw1v.png",
+      "image2": "../assets/img/bird-of-paradise-355.png",
+      "image3": "../assets/img/ii4trbcmxeufldr9rj7f.png",
+      "category": "Flowering"
+    },
+    {
+      "id": 11,
+      "name": "Alice",
+      "description": "Phalaenopsis; moth orchid",
+      "price": 54.99,
+      "image1": "../assets/img/c9vrf3syx8dsczey3bv2.png",
+      "image2": "../assets/img/qjuezmhpir2xdznxvk22.png",
+      "image3": "../assets/img/eaknuyx2wprzdxxigth8.png",
+      "category": "Flowering"
+    },
+    {
+      "id": 12,
+      "name": "Lara",
+      "description": "Phalaenopsis; moth orchid",
+      "price": 21.99,
+      "image1": "../assets/img/bfjgddkbhpzkvilxcvps.png",
+      "image2": "../assets/img/hysx7uzmy1azvnhq2kew.png",
+      "image3": "../assets/img/yxa43lbfbsbk0pwsp6gj.png",
+      "category": "Flowering"
+    },
+    {
+      "id": 13,
+      "name": "Zach",
+      "description": "Japanese bird's nest fern",
+      "price": 11.99,
+      "image1": "../assets/img/wxppoyh1ggedlvxpgbie.png",
+      "image2": "../assets/img/p8pnfakygelujz8asuax.png",
+      "image3": "../assets/img/vwtpjp9arjnlxftkqaa1.png",
+      "category": "Frens"
+    },
+    {
+      "id": 14,
+      "name": "Bertie",
+      "description": "Sword fern; Nephrolepis exaltata",
+      "price": 3.99,
+      "image1": "../assets/img/boston-fern-42361f.png",
+      "image2": "../assets/img/m67zhrjiiccvj7j7pvho.png",
+      "image3": "../assets/img/medium-boston-fern-414.png",
+      "category": "Frens"
+    },
+    {
+      "id": 15,
+      "name": "Davina",
+      "description": "Blue star fern; phlebodium davana",
+      "price": 11.99,
+      "image1": "../assets/img/gli6w9qftjsonupvooo8.png",
+      "image2": "../assets/img/kqpxdxlcuaztvt0clu0r.png",
+      "image3": "../assets/img/g7aobrlqxk1mvfcsmacq.png",
+      "category": "Frens"
+    },
+    {
+      "id": 15,
+      "name": "Gus",
+      "description": "Asparagus Setaceus",
+      "price": 9.99,
+      "image1": "../assets/img/ckmde1wyj4k2yvvla3yl.png",
+      "image2": "../assets/img/asparagus-fern-e749db.png",
+      "image3": "../assets/img/asparagus-fern-e76a6d.png",
+      "category": "Frens"
+    },
+    {
+      "id": 16,
+      "name": "Toby",
+      "description": "Blue star fern",
+      "price": 11.99,
+      "image1": "../assets/img/phlebodium-aureum-ea682c.png",
+      "image2": "../assets/img/oex2mmdzrmkpvknva5sv.png",
+      "image3": "../assets/img/yetyh4xhclibc47yryfu.png",
+      "category": "Frens"
+    },
+    {
+      "id": 17,
+      "name": "Pele",
+      "description": "Aspelenium nidus",
+      "price": 9.99,
+      "image1": "../assets/img/oaflgahpo3ez2ewtlih6.png",
+      "image2": "../assets/img/jnmk07jlaa96kspkhas6.png",
+      "image3": "../assets/img/hait1j7rsompksbskrzm.png",
+      "category": "Frens"
+    },
+    {
+      "id": 18,
+      "name": "Venus",
+      "description": "Aspelenium nidus",
+      "price": 9.99,
+      "image1": "../assets/img/ikekd8grei0clcraz61s.png",
+      "image2": "../assets/img/maidenhair-fern-306.png",
+      "image3": "../assets/img/maidenhair-fern-e1a1d9.png",
+      "category": "Frens"
+    },
+    {
+      "id": 19,
+      "name": "Suri",
+      "description": "",
+      "price": 3.99,
+      "image1": "../assets/img/qzyz2sckddqgfkkhhebw.png",
+      "image2": "../assets/img/khb8vwquafcam4bvikq5.png",
+      "image3": "../assets/img/zku71d5xv2s2vlzg8knp.png",
+      "category": "Cacti & succulents"
+    },
+    {
+      "id": 20,
+      "name": "Franky",
+      "description": "aloe barbadensis",
+      "price": 3.99,
+      "image1": "../assets/img/aloe-vera-dc6702.png",
+      "image2": "../assets/img/aloe-vera-52467f.png",
+      "image3": "../assets/img/aloe-vera-dc64ac.png",
+      "category": "Cacti & succulents"
+    },
+    {
+      "id": 20,
+      "name": "Ian",
+      "description": "Euphorbia",
+      "price": 3.99,
+      "image1": "../assets/img/qpcqj4pfwsgykn0yejjr.png",
+      "image2": "../assets/img/nttm5kberdlrgxgsoxur.png",
+      "image3": "../assets/img/wmiyfwkyvejc90alkrxd.png",
+      "category": "Cacti & succulents"
+    },
+    {
+      "id": 21,
+      "name": "Lyla",
+      "description": "Euphorbia",
+      "price": 4.99,
+      "image1": "../assets/img/gh3iversak0uuxzzwwwk.png",
+      "image2": "../assets/img/tfy38vfbq9kmnweyikrc.png",
+      "image3": "../assets/img/sp9wzpvsd7l7l1umhwru.png",
+      "category": "Cacti & succulents"
+    },
+    {
+      "id": 22,
+      "name": "Mini succulent set",
+      "description": "All these cute succulents are really easy to look after. They give a lot of beauty for almost no effort. The set includes Mimi, Levi, Gabi and Lila.",
+      "price": 22.99,
+      "image1": "../assets/img/eyezulzs9styxizwxuok.png",
+      "image2": "../assets/img/devz6jh8hg46ml7jhaxz.png",
+      "image3": "../assets/img/sxxrclzpwwnhrrjiwxnx.png",
+      "category": "Cacti & succulents"
+    },
+    {
+      "id": 23,
+      "name": "Val",
+      "description": "Hoya hearts; Hoya kerii; Lucky heart; Wax heart; Lucky heart",
+      "price": 22.99,
+      "image1": "../assets/img/gvh8bivqsemtfp5u5ctn.png",
+      "image2": "../assets/img/pk98gfouoobsjwvvr1ou.png",
+      "image3": "../assets/img/ln5irkdm9iqmoicywiju.png",
+      "category": "Cacti & succulents"
+    },
+    {
+      "id": 24,
+      "name": "LIZZIE",
+      "description": "Epipremnum pinnatum 'Marble Queen'",
+      "price": 18.0,
+      "image1": "../assets/img/lizzie.png",
+      "image2": "../assets/img/lizzie_2.png",
+      "image3": "../assets/img/lizzie_3.png",
+      "category": "Hanging & climbing"
+    },
+    {
+      "id": 25,
+      "name": "BIG KEN",
+      "description": "Howea forsteriana; Thatch palm; Paradise palm plant",
+      "price": 60.0,
+      "image1": "../assets/img/big_ken.png",
+      "image2": "../assets/img/big_ken_2.png",
+      "image3": "../assets/img/big_ken_3.png",
+      "category": "Palms & trees"
+    },
+    {
+      "id": 26,
+      "name": "RAPUNZEL",
+      "description": "Devils' Ivy; Epipremnum aureum; Ceylon creeper; Golden Pothos",
+      "price": 30.0,
+      "image1": "../assets/img/rapunzel.png",
+      "image2": "../assets/img/rapunzel_2.png",
+      "image3": "../assets/img/rapunzel_3.png",
+      "category": "Hanging & climbing"
+    },
+    {
+      "id": 27,
+      "name": "DAVID",
+      "description": "Pothos",
+      "price": 18.0,
+      "image1": "../assets/img/david.png",
+      "image2": "../assets/img/david_2.png",
+      "image3": "../assets/img/david_3.png",
+      "category": "Hanging & climbing"
+    },
+    {
+      "id": 28,
+      "name": "ARIEL",
+      "description": "",
+      "price": 50.0,
+      "image1": "../assets/img/ariel.png",
+      "image2": "../assets/img/ariel_2.png",
+      "image3": "../assets/img/ariel_3.png",
+      "category": "Palms & trees"
+    },
+    {
+      "id": 29,
+      "name": "SHARON",
+      "description": "Chamaedorea elegans; Neanthe bella palm; Parlour palm",
+      "price": 27.0,
+      "image1": "../assets/img/sharon.png",
+      "image2": "../assets/img/sharon_2.png",
+      "image3": "../assets/img/sharon_3.png",
+      "category": "Palms & trees"
+    },
+    {
+      "id": 30,
+      "name": "PHARRELL",
+      "description": "",
+      "price": 12.0,
+      "image1": "../assets/img/pharrell.png",
+      "image2": "../assets/img/pharrell_2.png",
+      "image3": "../assets/img/pharrell_3.png",
+      "category": "Hanging & climbing"
+    },
+    {
+      "id": 31,
+      "name": "NICOLAU",
+      "description": "White Bird of Paradise; Wild Banana",
+      "price": 90.0,
+      "image1": "../assets/img/nicolau.png",
+      "image2": "../assets/img/nicolau_2.png",
+      "image3": "../assets/img/nicolau_3.png",
+      "category": "Palms & trees"
+    },
+    {
+      "id": 32,
+      "name": "WALLACE",
+      "description": "Monkey face plant; Monkey plant; Mini Swiss cheese plant",
+      "price": 20.0,
+      "image1": "../assets/img/wallace.png",
+      "image2": "../assets/img/wallace.png",
+      "image3": "../assets/img/wallace_3.png",
+      "category": "Hanging & climbing"
+    },
+    {
+      "id": 33,
+      "name": "IVY",
+      "description": "Hedera Helix; English Ivy; Common Ivy; European Ivy.",
+      "price": 15.0,
+      "image1": "../assets/img/ivy.png",
+      "image2": "../assets/img/ivy_2.png",
+      "image3": "../assets/img/ivy_3.png",
+      "category": "Hanging & climbing"
+    },
+    {
+      "id": 34,
+      "name": "SILVY",
+      "description": "Scindapsus Pictus; Silk Pothos",
+      "price": 50.0,
+      "image1": "../assets/img/silvy.png",
+      "image2": "../assets/img/silvy_2.png",
+      "image3": "../assets/img/silvy_3.png",
+      "category": "Hanging & climbing"
+    },
+    {
+      "id": 35,
+      "name": "THEODORE",
+      "description": "Dischidia imbricata; Thruppence urn plant; Shingle plant",
+      "price": 20.0,
+      "image1": "../assets/img/theodore.png",
+      "image2": "../assets/img/theodore_2.png",
+      "image3": "../assets/img/theodore_3.png",
+      "category": "Hanging & climbing"
+    },
+    {
+      "id": 36,
+      "name": "PEGGY",
+      "description": "Ceropegia; String of Hearts; Hearts entangled; Sweetheart vine",
+      "price": 18.0,
+      "image1": "../assets/img/peggy.png",
+      "image2": "../assets/img/peggy_2.png",
+      "image3": "../assets/img/peggy_3.png",
+      "category": "Hanging & climbing"
+    },
+    {
+      "id": 37,
+      "name": "MUSA",
+      "description": "Banana 'Dwarf Cavendish'",
+      "price": 40.0,
+      "image1": "../assets/img/musa-dwarf-cavendish-18e2f2.png",
+      "image2": "../assets/img/yf43crvivlgunt3jzvin.png",
+      "image3": "../assets/img/zlsjcreqoa3k1zd2zn6m.png",
+      "category": "Palms & trees"
+    },
+    {
+      "id": 38,
+      "name": "Tam",
+      "description": "Dicksonia Antarctica",
+      "price": 64.99,
+      "image1": "../assets/img/pngstjs46jjwmifqyxtwx9x.png",
+      "image2": "../assets/img/h0a9cgztwg96qq1qbfhj.png",
+      "image3": "../assets/img/tree-fern-ce2b06.png",
+      "category": "Frens"
+    },
+    {
+      "id": 39,
+      "name": "Beryl",
+      "description": "Polystichum Polyblepharum; lace fern; tassel fern",
+      "price": 11.99,
+      "image1": "../assets/img/golden-shield-fern-009162.png",
+      "image2": "../assets/img/uwlue78bme396ctmk5hl.png",
+      "image3": "../assets/img/golden-shield-fern-004ff7.png",
+      "category": "Frens"
+    },
+    {
+      "id": 40,
+      "name": "Fats",
+      "description": "Glossy-leaf paper plant; Fatsi; Paperplant; Japanese aralia",
+      "price": 29.99,
+      "image1": "../assets/img/tjmgkgqozahmkgqyvzil.png",
+      "image2": "../assets/img/vsz8hzjwhyc89t35nnul.png",
+      "image3": "../assets/img/cqf0udzcsq0m5wctir5s.png",
+      "category": "Flowering"
+    },
+    {
+      "id": 41,
+      "name": "Margot",
+      "description": "Paeonia 'Alexander Flemming'",
+      "price": 11.99,
+      "image1": "../assets/img/msrkh2r3ibfflcg1lph7.png",
+      "image2": "../assets/img/flqbl0oxaktled4xzgwk.png",
+      "image3": "../assets/img/eyjhgiywygbwea7d8sah.png",
+      "category": "Flowering"
+    },
+    {
+      "id": 42,
+      "name": "Aggy",
+      "description": "African Lily; Lily of the Nile",
+      "price": 44.99,
+      "image1": "../assets/img/bmbfj79mqgg9hpo6mmp2.png",
+      "image2": "../assets/img/mjnrsarnkxod2ilsklih.png",
+      "image3": "../assets/img/agapanthus-1aba97.png",
+      "category": "Flowering"
+    },
+    {
+      "id": 43,
+      "name": "James",
+      "description": "Skimmia japonica 'seduction'; Japanese skimmia",
+      "price": 29.99,
+      "image1": "../assets/img/jybgzppedqigrmg2hv5g.png",
+      "image2": "../assets/img/cyxiz75df0i6sg9wb4rm.png",
+      "image3": "../assets/img/brtwem50z039g5ldiv79.png",
+      "category": "Flowering"
+    },
+    {
+      "id": 44,
+      "name": "Gia",
+      "description": "Mophead Hydrangea, French Hydrangea, Hortensia",
+      "price": 25.99,
+      "image1": "../assets/img/rodtbmddfg9afkzm4ccx.png",
+      "image2": "../assets/img/gebrdpmpm1etiljxybxx.png",
+      "image3": "../assets/img/i6ovr3pm1mnskjhtlmtj.png",
+      "category": "Flowering"
+    },
+    {
+      "id": 45,
+      "name": "Helen",
+      "description": "Mophead Hydrangea, French Hydrangea, Hortensia",
+      "price": 19.99,
+      "image1": "../assets/img/wbdqioozlmvrpn8hbi7f.png",
+      "image2": "../assets/img/gfqecyghv6ew1fs9avlc.png",
+      "image3": "../assets/img/zxtnew0iwb4ynadynwmj.png",
+      "category": "Flowering"
+    },
+    {
+      "id": 46,
+      "name": "Ace",
+      "description": "Japanese maple",
+      "price": 19.99,
+      "image1": "../assets/img/n6sevs8ckehnnrxh44fu.png",
+      "image2": "../assets/img/acer-palmatum-1524da.png",
+      "image3": "../assets/img/iyikdvlvzoy7cmzw1qd1.png",
+      "category": "Palms & trees"
+    },
+    {
+      "id": 47,
+      "name": "JAZZ",
+      "description": "Trachelosporum Jasminoides; Climbing Jasmine; Confederate Jasmine; Chinese Jasmine; Trader’s Compass",
+      "price": 20.0,
+      "image1": "../assets/img/jazz.png",
+      "image2": "../assets/img/jazz_2.png",
+      "image3": "../assets/img/jazz_3.png",
+      "category": "Palms & trees"
+    },
+    {
+      "id": 48,
+      "name": "GEORGIA",
+      "description": "Vitis vinifera 'Lakemount'",
+      "price": 18.0,
+      "image1": "../assets/img/georgia.png",
+      "image2": "../assets/img/georgia_2.png",
+      "image3": "../assets/img/georgia_3.png",
+      "category": "Palms & trees"
+    },
+    {
+      "id": 49,
+      "name": "REBECCA",
+      "description": "",
+      "price": 50.0,
+      "image1": "../assets/img/rebecca.png",
+      "image2": "../assets/img/rebecca_2.png",
+      "image3": "../assets/img/rebecca_3.png",
+      "category": "Bamboo & grasses"
+    },
+    {
+      "id": 50,
+      "name": "LAURA TREE",
+      "description": "Laurus Nobilis; Poet's laurel; Roman laurel; True laurel; Victor's laurel",
+      "price": 90.0,
+      "image1": "../assets/img/laura.png",
+      "image2": "../assets/img/laura_2.png",
+      "image3": "../assets/img/laura_3.png",
+      "category": "Edibles"
+    },
+    {
+      "id": 51,
+      "name": "MAE",
+      "description": "Dwarf fan palm; Mediterranean fan palm; African hair palm; European fan palm; Palm Cabbage",
+      "price": 50.0,
+      "image1": "../assets/img/mae.png",
+      "image2": "../assets/img/mae_2.png",
+      "image3": "../assets/img/mae_3.png",
+      "category": "Edibles"
+    },
+    {
+      "id": 52,
+      "name": "LAURA SHRUB",
+      "description": "Laurus Nobilis; Poet's laurel; Roman laurel; True laurel; Victor's laurel",
+      "price": 50.0,
+      "image1": "../assets/img/shrub.png",
+      "image2": "../assets/img/shrub_2.png",
+      "image3": "../assets/img/shrub_3.png",
+      "category": "Edibles"
+    },
+    {
+      "id": 53,
+      "name": "BOO",
+      "description": "Fargesia Moontears; Umbrella Bamboo",
+      "price": 40.0,
+      "image1": "../assets/img/boo.png",
+      "image2": "../assets/img/boo_2.png",
+      "image3": "../assets/img/boo_3.png",
+      "category": "Bamboo & grasses"
+    },
+    {
+      "id": 54,
+      "name": "FELIX",
+      "description": "",
+      "price": 20.0,
+      "image1": "../assets/img/felix.png",
+      "image2": "../assets/img/felix_2.png",
+      "image3": "../assets/img/felix_3.png",
+      "category": "Edibles"
+    },
+    {
+      "id": 55,
+      "name": "AMRITA",
+      "description": "Stipa Tenuissima",
+      "price": 12.0,
+      "image1": "../assets/img/amrita.png",
+      "image2": "../assets/img/amrita_2.png",
+      "image3": "../assets/img/amrita_3.png",
+      "category": "Bamboo & grasses"
+    },
+    {
+      "id": 56,
+      "name": "ACE",
+      "description": "",
+      "price": 30.0,
+      "image1": "../assets/img/ace.png",
+      "image2": "../assets/img/ace_2.png",
+      "image3": "../assets/img/ace_3.png",
+      "category": "Edibles"
+    },
+    {
+      "id": 57,
+      "name": "EMERALD",
+      "description": "Euonymus Fortunei Emerald 'n' Gold; Fortune's spindle",
+      "price": 20.0,
+      "image1": "../assets/img/emerald.png",
+      "image2": "../assets/img/emerald_2.png",
+      "image3": "../assets/img/emerald_3.png",
+      "category": "Edibles"
+    },
+    {
+      "id": 58,
+      "name": "CHERIE",
+      "description": "Prunus avium 'Regina'",
+      "price": 500.0,
+      "image1": "../assets/img/cherie.png",
+      "image2": "../assets/img/cherie_2.png",
+      "image3": "../assets/img/cherie_3.png",
+      "category": "Edibles"
+    },
+    {
+      "id": 59,
+      "name": "BREE",
+      "description": "Fargesia 'Winter Black'",
+      "price": 60.0,
+      "image1": "../assets/img/bree.png",
+      "image2": "../assets/img/bree_2.png",
+      "image3": "../assets/img/bree_3.png",
+      "category": "Bamboo & grasses"
+    },
+    {
+      "id": 60,
+      "name": "RUFUS",
+      "description": "Japanese blood grass; Imperata cylindrica 'Red Baron'",
+      "price": 12.0,
+      "image1": "../assets/img/rufus.png",
+      "image2": "../assets/img/rufus_2.png",
+      "image3": "../assets/img/rufus_3.png",
+      "category": "Bamboo & grasses"
+    },
+    {
+      "id": 61,
+      "name": "HAMISH",
+      "description": "Chinese fountain grass; Pennisetum alopecuroides 'Hameln'",
+      "price": 30.0,
+      "image1": "../assets/img/hamish.png",
+      "image2": "../assets/img/hamish_2.png",
+      "image3": "../assets/img/hamish_3.png",
+      "category": "Bamboo & grasses"
+    },
+    {
+      "id": 62,
+      "name": "MILA",
+      "description": "Chinese silver grass",
+      "price": 40.0,
+      "image1": "../assets/img/mila.png",
+      "image2": "../assets/img/mila_2.png",
+      "image3": "../assets/img/mila_3.png",
+      "category": "Bamboo & grasses"
+    }
+  ],
+  "categories": [
+    "Flowering",
+    "Frens",
+    "Cacti & succulents",
+    "Palms & trees",
+    "Hanging & climbing",
+    "Bamboo & grasses",
+    "Edibles"
+  ]
+}
