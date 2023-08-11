@@ -1,3 +1,19 @@
+// $(document).ready(function () {
+//   // Xử lý sự kiện khi nhấp vào các liên kết
+//   $(".nav-link").click(function (event) {
+//     event.preventDefault(); // Ngăn chặn hành vi mặc định của liên kết
+
+//     var url = $(this).attr("href"); // Lấy đường dẫn từ thuộc tính href của liên kết
+//     console.log("URL:", url);
+//     console.log("hello");
+
+//     // // Tải nội dung trang home mặc định
+//     // $("#content").load("home.html");
+//     // Sử dụng phương thức load() để tải nội dung từ đường dẫn và thay thế phần nội dung chính
+//     $("#content").load(url);
+//   });
+// });
+
 $(document).ready(function () {
   // Xử lý sự kiện khi nhấp vào các liên kết
   $(".nav-link").click(function (event) {
@@ -7,14 +23,17 @@ $(document).ready(function () {
     console.log("URL:", url);
     console.log("hello");
 
-    // // Tải nội dung trang home mặc định
-    // $("#content").load("home.html");
-    // Sử dụng phương thức load() để tải nội dung từ đường dẫn và thay thế phần nội dung chính
+    // Ẩn phần tử có id là "body" nếu url khác "home.html"
+    if (url !== "home.html") {
+      $("#body").css("display", "none");
+    } else {
+      $("#body").css("display", ""); // Hiển thị phần tử "body" nếu url là "home.html"
+    }
+
+    // Tải nội dung từ đường dẫn và thay thế phần nội dung chính
     $("#content").load(url);
   });
 });
-
-
 // slider
 
 const data = [
