@@ -469,7 +469,7 @@ a {
   display: flex;
 }
 .banner-container .banner-title{
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 600;
   text-transform: capitalize;
   font-family: "roboto" ,sans-serif;
@@ -1405,7 +1405,7 @@ label.product-cart-color-white{
   padding: 0 70px;
 }
 .signature-plant-container .signature-plant-wrapper-list .signature-plant-item:before {
-  right: 87px;
+  right: 52px;
   background: transparent;
 }
 .signature-plant-container .signature-plant-wrapper-list .signature-plant-item:hover:before {
@@ -1428,6 +1428,7 @@ label.product-cart-color-white{
  left: 50%;
  right: 50%;
  transform: translate(-50%, -50%);
+ padding-left: 45px;
 }
 /* animation ship */
 @keyframes shipper_left {
@@ -1451,6 +1452,7 @@ label.product-cart-color-white{
 /* banner */
 .banner-container {
   gap: 0px;
+  margin-top: -6px;
 }
 .banner-container .banner-wrapper-img img {
   width: 200px;
@@ -1462,9 +1464,22 @@ label.product-cart-color-white{
 .banner-bottom {
   height: 45px;
 }
+.banner-content-wrapper {
+  width: 145px;
+}
+.shipper_back{
+  bottom: -39px;
+}
+.shipper{
+  bottom: -2px;
+}
 .shipper_back,
 .shipper{
   height: 180px;
   width: 180px;
+
+}
+.footer-item{
+  margin:  0 100px;
 }
 }

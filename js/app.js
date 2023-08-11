@@ -14,89 +14,24 @@ $(document).ready(function () {
   });
 });
 
-// breadcrumb
-// $(document).ready(function () {
-//   // Xử lý khi trang được tải
-//   updateBreadcrumb();
-
-//   // Xử lý sự kiện khi nhấn vào các liên kết navigation
-//   $(".nav-link").click(function (event) {
-//     event.preventDefault();
-
-//     var url = $(this).attr("href");
-//     $("#content").html("Loading...");
-//     loadContent(url, function () {
-//       updateBreadcrumb(url);
-//     });
-//   });
-
-//   // Cập nhật breadcrumb dựa trên đường dẫn hiện tại của trang
-//   function updateBreadcrumb(url) {
-//     var breadcrumbContainer = $("#breadcrumb");
-//     breadcrumbContainer.empty(); // Xóa breadcrumb hiện tại
-
-//     var breadcrumbData = getBreadcrumbData(url);
-//     if (breadcrumbData) {
-//       $.each(breadcrumbData, function (index, segment) {
-//         var segmentLink = $("<a></a>")
-//           .attr("href", segment.url)
-//           .text(segment.title);
-//         var segmentItem = $("<span></span>").append(segmentLink);
-
-//         if (index < breadcrumbData.length - 1) {
-//           segmentItem.append(" > ");
-//         }
-
-//         breadcrumbContainer.append(segmentItem);
-//       });
-//     }
-//   }
-
-//   // Lấy dữ liệu breadcrumb dựa trên đường dẫn hiện tại của trang
-//   function getBreadcrumbData(url) {
-//     // Đây là một ví dụ cấu trúc dữ liệu breadcrumb đa cấp
-//     var breadcrumbData = {
-//       "home.html": [{ url: "home.html", title: "home 1" }],
-//       "page2.html": [
-//         { url: "page1.html", title: "Page 1" },
-//         { url: "page2.html", title: "Page 2" },
-//       ],
-//       "page3.html": [
-//         { url: "page1.html", title: "Page 1" },
-//         { url: "page2.html", title: "Page 2" },
-//         { url: "page3.html", title: "Page 3" },
-//       ],
-//     };
-//     return breadcrumbData[url] || null;
-//   }
-
-//   // Tải nội dung từ đường dẫn
-//   function loadContent(url, callback) {
-//     $("#content").load(url, function () {
-//       if (typeof callback === "function") {
-//         callback();
-//       }
-//     });
-//   }
-// });
 
 // slider
 
 const data = [
   {
-    img: "../assets/img/garden.jpg",
+    img: "./assets/img/garden.jpg",
     country: "Country 1",
     place: "Place 1",
     description: "Description 1",
   },
   {
-    img: "../assets/img/logo.jpg",
+    img: "./assets/img/logo.jpg",
     country: "Country 2",
     place: "Place 2",
     description: "Description 2",
   },
   {
-    img: "../assets/img/garden.jpg",
+    img: "./assets/img/garden.jpg",
     country: "Country 1",
     place: "Place 1",
     description: "Description 1",
@@ -148,6 +83,7 @@ for (let i = 1; i < data.length; i++) {
 const nextBtn = document.querySelector(".navigation .next-button");
 var currentIndex = 0;
 nextBtn.addEventListener("click", () => {
+  console.log("dfksd'");
   nextBtn.disabled = true;
   var clone = thumbnailListWrapper.children[0].cloneNode(true);
   clone.classList.remove("zoom");
@@ -255,3 +191,4 @@ iconArrow[0].onclick = ()=>{left_mover();}
    downBtn.classList.remove("hide");
    upBtn.classList.add("hide");
  });
+
