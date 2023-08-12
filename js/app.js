@@ -38,23 +38,30 @@ $(document).ready(function () {
 
 const data = [
   {
-    img: "./assets/img/garden.jpg",
+    img: "./assets/img/cc2.jpg",
     country: "Country 1",
     place: "Place 1",
     description: "Description 1",
   },
   {
-    img: "./assets/img/logo.jpg",
+    img: "./assets/img/cc5.jpg",
     country: "Country 2",
     place: "Place 2",
     description: "Description 2",
   },
   {
-    img: "./assets/img/garden.jpg",
+    img: "./assets/img/cc6.jpg",
     country: "Country 1",
     place: "Place 1",
     description: "Description 1",
   },
+  {
+    img: "./assets/img/cc7.jpg",
+    country: "Country 1",
+    place: "Place 1",
+    description: "Description 1",
+  },
+
   // Thêm các phần tử khác tương tự
 ];
 

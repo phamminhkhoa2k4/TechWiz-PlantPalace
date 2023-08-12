@@ -725,7 +725,7 @@ footer ul a:hover {
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.3));
 }
 .signature-plant-container .signature-plant-wrapper-list .signature-plant-item:hover img {
-      transform: translateY(-30px) scale(1.1);
+      transform: translateY(-20px) scale(1.2);
       filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.9));
 }
 .signature-plant-content {
