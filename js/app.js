@@ -24,43 +24,40 @@ $(document).ready(function () {
     console.log("hello");
 
     // Ẩn phần tử có id là "body" nếu url khác "home.html"
-    if (url !== "home.html") {
+    if (url !== "index.html") {
       $("#body").css("display", "none");
+      // Tải nội dung từ đường dẫn và thay thế phần nội dung chính
+      $("#content").load(url);
     } else {
       $("#body").css("display", ""); // Hiển thị phần tử "body" nếu url là "home.html"
     }
 
-    // Tải nội dung từ đường dẫn và thay thế phần nội dung chính
-    $("#content").load(url);
+    
   });
 });
 // slider
 
 const data = [
   {
-    img: "./assets/img/cc2.jpg",
-    country: "Country 1",
-    place: "Place 1",
-    description: "Description 1",
-  },
-  {
-    img: "./assets/img/cc5.jpg",
-    country: "Country 2",
-    place: "Place 2",
-    description: "Description 2",
-  },
-  {
-    img: "./assets/img/cc6.jpg",
-    country: "Country 1",
-    place: "Place 1",
-    description: "Description 1",
+    img: "./assets/img/cc8.jpg",
+    country: "",
+    place: "Tree",
+    description: "Lung of the world.",
   },
   {
     img: "./assets/img/cc7.jpg",
-    country: "Country 1",
-    place: "Place 1",
-    description: "Description 1",
+    country: "",
+    place: "Tree",
+    description: "The seed of life.",
   },
+  {
+    img: "./assets/img/cc2.jpg",
+    country: "",
+    place: " Tree",
+    description:
+      "Extremely important for the survival of all plants and animals including humans.",
+  },
+ 
 
   // Thêm các phần tử khác tương tự
 ];

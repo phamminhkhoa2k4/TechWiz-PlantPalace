@@ -1,0 +1,527 @@
+<link rel="stylesheet" href="../assets/css/style.css" />
+<link rel="stylesheet" href="../assets/css/substyle.css" />
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+<div id="main">
+    <div>
+        <header id="header2">
+            <div class="header-wrapper">
+                <div class="header-title">
+                    <div class="header-title-inner">
+                        <h1 class="header-title-desc">Frens</h1>
+                    </div>
+                </div>
+                <div class="header-image">
+                    <div class="header-image-background header-image-background-hidden"
+                        style="background-image: url(../assets/img/garden.jpg)"></div>
+                    <!-- <div class="header-image-background"></div>  -->
+                </div>
+            </div>
+        </header>
+        <div id="container">
+<div class="container-tiles">
+        <a class="nav-link" href="./flowering.html">
+          <!-- <img src="" alt="" class="container-tiles-image"> -->
+          <span>Flowering</span>
+        </a>
+        <a class="nav-link" href="./frens.html">
+          <!-- <img src="" alt="" class="container-tiles-image"> -->
+          <span>Frens</span>
+        </a>
+        <a class="nav-link" href="./Cactisucculents.html">
+          <!-- <img src="" alt="" class="container-tiles-image"> -->
+          <span>Cacti & succulents</span>
+        </a>
+        <a class="nav-link" href="./trees.html">
+          <!-- <img src="" alt="" class="container-tiles-image"> -->
+          <span>Palms & trees</span>
+        </a>
+      </div>
+            <div class="container-content">
+                <div class="grid">
+                    <div class="grid-item grid-3">
+                        <div class="grid-item-sidebar">
+                            <div class="grid-item-sidebar-wrapper" style="min-height: initial">
+                                <!--  -->
+                                <div class="grid-item-sidebar-filter">
+                                    <div class="grid-item-sidebar-filter-content-wrapper">
+                                        <div class="close-icon js-close-btn">
+                                            <i class="bx bx-x" style="color: #000"></i>
+                                        </div>
+                                        <h3 class="grid-item-sidebar-filter-content-title">
+                                            Filters
+                                        </h3>
+                                        <div class="grid-item-sidebar-filter-content-item">
+                                            <h4 class="grid-item-sidebar-filter-content-item-title">
+                                                CATEGORY
+                                            </h4>
+                                            <div class="grid-item-sidebar-filter-content-item-dropdown">
+                                                <ul class="grid-item-sidebar-filter-content-item-dropdown-list">
+                                                    <li class="grid-item-sidebar-filter-content-item-dropdown-item">
+                                                        <input type="checkbox"
+                                                            class="grid-item-sidebar-filter-content-item-dropdown-item-checkbox js-category-filter"
+                                                            value="chair" />Flowering
+                                                    </li>
+                                                    <li class="grid-item-sidebar-filter-content-item-dropdown-item">
+                                                        <input type="checkbox"
+                                                            class="grid-item-sidebar-filter-content-item-dropdown-item-checkbox js-category-filter"
+                                                            value="desk" />
+                                                        Frens
+                                                    </li>
+                                                    <li class="grid-item-sidebar-filter-content-item-dropdown-item">
+                                                        <input type="checkbox"
+                                                            class="grid-item-sidebar-filter-content-item-dropdown-item-checkbox js-category-filter"
+                                                            value="cabinet" />
+                                                        Cacti & succulents
+                                                    </li>
+                                                    <li class="grid-item-sidebar-filter-content-item-dropdown-item">
+                                                        <input type="checkbox"
+                                                            class="grid-item-sidebar-filter-content-item-dropdown-item-checkbox js-category-filter"
+                                                            value="shelf" />
+                                                        Palms & trees
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="grid-item-sidebar-filter-content-item">
+                                            <h4 class="grid-item-sidebar-filter-content-item-title">
+                                                PRICE
+                                            </h4>
+                                            <div class="grid-item-sidebar-filter-content-item-dropdown">
+                                                <div
+                                                    class="grid-item-sidebar-filter-content-item-dropdown-header-wrapper">
+                                                    <div
+                                                        class="grid-item-sidebar-filter-content-item-dropdown-header-inner">
+                                                        <div class="rz-slider">
+                                                            <div class="slider-range-wrapper">
+                                                                <div class="slider-range"></div>
+                                                            </div>
+                                                            <div class="slider-input-range-wrapper">
+                                                                <input type="range" class="slider-input-range-min"
+                                                                    min="0" max="10000" step="100" value="0"
+                                                                    style="box-shadow: none" />
+                                                                <input type="range" class="slider-input-range-max"
+                                                                    min="0" max="10000" step="100" value="10000"
+                                                                    style="box-shadow: none" />
+                                                            </div>
+                                                            <span class="slide-begin slide-begin-left"
+                                                                style="opacity: 1">0$</span>
+                                                            <span class="slide-begin slide-begin-right"
+                                                                style="opacity: 1">10000$</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="grid-item-sidebar-filter-content-item-dropdown-body-wrapper">
+                                                    <div
+                                                        class="grid-item-sidebar-filter-content-item-dropdown-body-inner">
+                                                        <div
+                                                            class="grid-item-sidebar-filter-content-item-dropdown-body-price">
+                                                            <div
+                                                                class="grid-item-sidebar-filter-content-item-dropdown-body-min js-input-price">
+                                                                <label for="minPrice">min price</label><br />
+                                                                <input type="number" min="0" value="0" id="minPrice"
+                                                                    ng-model="pricemin" class="price-min"
+                                                                    oninput="system()" style="box-shadow: none" />
+                                                            </div>
+                                                            <div
+                                                                class="grid-item-sidebar-filter-content-item-dropdown-body-max js-input-price">
+                                                                <label for="maxPrice">max price</label><br />
+                                                                <input type="number" max="10000" value="10000"
+                                                                    ng-model="pricemax" id="maxPrice" class="price-max"
+                                                                    oninput="system()" style="box-shadow: none" />
+                                                            </div>
+                                                        </div>
+                                                        <button
+                                                            class="grid-item-sidebar-filter-content-item-dropdown-body-btn"
+                                                            onclick="openfilterBtn()">
+                                                            Apply
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item-sidebar-filter-content-item">
+                                            <h4 class="grid-item-sidebar-filter-content-item-title">
+
+                                            </h4>
+                                            <div class="grid-item-sidebar-filter-content-item-dropdown">
+                                                <ul class="grid-item-sidebar-filter-content-item-dropdown-list">
+                                                    <li class="grid-item-sidebar-filter-content-item-dropdown-item">
+
+                                                    <li class="grid-item-sidebar-filter-content-item-dropdown-item">
+
+                                                    </li>
+                                                    <li class="grid-item-sidebar-filter-content-item-dropdown-item">
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid-item-sidebar-filter-button-wrapper">
+                                        <button>Show Result</button>
+                                    </div>
+                                </div>
+                                <!--  -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -->
+                    <div class="grid-item grid-9 khoa">
+                        <div class="grid-content">
+                            <div class="grid-content-wrapper" style="min-height: initial">
+                                <!--  -->
+                                <div class="grid-content-inner">
+                                    <div class="grid-content-product-layout">
+                                        <div class="layout-toolbar">
+                                            <button class="layout-toolbar-btn js-open-filter">
+                                                Filter
+                                            </button>
+                                        </div>
+                                        <div class="layout-product">
+                                            <div class="layout-product-grid-flex grid">
+                                                <div class="product-cart">
+                                                    <div class="product-cart-item">
+                                                        <div class="product-cart-wishlist-btn">
+                                                            <span class="wishlist-icon">
+                                                                <i class="bx bx-heart"></i>
+                                                                <i class="bx bxs-heart"></i>
+                                                            </span>
+                                                        </div>
+                                                        <a href="" class="product-cart-image">
+                                                            <div class="product-cart-image-wrapper">
+                                                                <img src="../assets/img/pngstjs46jjwmifqyxtwx9x.png" alt="attention"
+                                                                    class="product-cart-image-img image-display"
+                                                                    style="height: 320px; width: 320px" />
+                                                            </div>
+                                                        </a>
+
+
+                                                        <div class="product-cart-info" style="min-height: 112px">
+                                                            <p style="display: none"></p>
+                                                            <p class="product-cart-info-brand">Frens</p>
+                                                            <h3 class="product-cart-info-title">Tam</h3>
+                                                            <p class="product-cart-info-price">
+                                                                <span style="font-size: 13px">64.99$</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-cart">
+                                                    <div class="product-cart-item">
+                                                        <div class="product-cart-wishlist-btn">
+                                                            <span class="wishlist-icon">
+                                                                <i class="bx bx-heart"></i>
+                                                                <i class="bx bxs-heart"></i>
+                                                            </span>
+                                                        </div>
+                                                        <a href="" class="product-cart-image">
+                                                            <div class="product-cart-image-wrapper">
+                                                                <img src="../assets/img/golden-shield-fern-009162.png" alt="attention"
+                                                                    class="product-cart-image-img image-display"
+                                                                    style="height: 320px; width: 320px" />
+                                                            </div>
+                                                        </a>
+
+
+                                                        <div class="product-cart-info" style="min-height: 112px">
+                                                            <p style="display: none"></p>
+                                                            <p class="product-cart-info-brand">Frens</p>
+                                                            <h3 class="product-cart-info-title">Beryl</h3>
+                                                            <p class="product-cart-info-price">
+                                                                <span style="font-size: 13px">11.99$</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-cart">
+                                                    <div class="product-cart-item">
+                                                        <div class="product-cart-wishlist-btn">
+                                                            <span class="wishlist-icon">
+                                                                <i class="bx bx-heart"></i>
+                                                                <i class="bx bxs-heart"></i>
+                                                            </span>
+                                                        </div>
+                                                        <a href="" class="product-cart-image">
+                                                            <div class="product-cart-image-wrapper">
+                                                                <img src="../assets/img/ikekd8grei0clcraz61s.png" alt="attention"
+                                                                    class="product-cart-image-img image-display"
+                                                                    style="height: 320px; width: 320px" />
+                                                            </div>
+                                                        </a>
+
+
+                                                        <div class="product-cart-info" style="min-height: 112px">
+                                                            <p style="display: none"></p>
+                                                            <p class="product-cart-info-brand">Frens</p>
+                                                            <h3 class="product-cart-info-title">Venus</h3>
+                                                            <p class="product-cart-info-price">
+                                                                <span style="font-size: 13px">9.99$</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-cart">
+                                                    <div class="product-cart-item">
+                                                        <div class="product-cart-wishlist-btn">
+                                                            <span class="wishlist-icon">
+                                                                <i class="bx bx-heart"></i>
+                                                                <i class="bx bxs-heart"></i>
+                                                            </span>
+                                                        </div>
+                                                        <a href="" class="product-cart-image">
+                                                            <div class="product-cart-image-wrapper">
+                                                                <img src="../assets/img/oaflgahpo3ez2ewtlih6.png" alt="attention"
+                                                                    class="product-cart-image-img image-display"
+                                                                    style="height: 320px; width: 320px" />
+                                                            </div>
+                                                        </a>
+
+
+                                                        <div class="product-cart-info" style="min-height: 112px">
+                                                            <p style="display: none"></p>
+                                                            <p class="product-cart-info-brand">Frens</p>
+                                                            <h3 class="product-cart-info-title">Pele</h3>
+                                                            <p class="product-cart-info-price">
+                                                                <span style="font-size: 13px">9.99$</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-cart">
+                                                    <div class="product-cart-item">
+                                                        <div class="product-cart-wishlist-btn">
+                                                            <span class="wishlist-icon">
+                                                                <i class="bx bx-heart"></i>
+                                                                <i class="bx bxs-heart"></i>
+                                                            </span>
+                                                        </div>
+                                                        <a href="" class="product-cart-image">
+                                                            <div class="product-cart-image-wrapper">
+                                                                <img src="../assets/img/phlebodium-aureum-ea682c.png" alt="attention"
+                                                                    class="product-cart-image-img image-display"
+                                                                    style="height: 320px; width: 320px" />
+                                                            </div>
+                                                        </a>
+
+
+                                                        <div class="product-cart-info" style="min-height: 112px">
+                                                            <p style="display: none"></p>
+                                                            <p class="product-cart-info-brand">Frens</p>
+                                                            <h3 class="product-cart-info-title">Toby</h3>
+                                                            <p class="product-cart-info-price">
+                                                                <span style="font-size: 13px">11.99$</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-cart">
+                                                    <div class="product-cart-item">
+                                                        <div class="product-cart-wishlist-btn">
+                                                            <span class="wishlist-icon">
+                                                                <i class="bx bx-heart"></i>
+                                                                <i class="bx bxs-heart"></i>
+                                                            </span>
+                                                        </div>
+                                                        <a href="" class="product-cart-image">
+                                                            <div class="product-cart-image-wrapper">
+                                                                <img src="../assets/img/ckmde1wyj4k2yvvla3yl.png" alt="attention"
+                                                                    class="product-cart-image-img image-display"
+                                                                    style="height: 320px; width: 320px" />
+                                                            </div>
+                                                        </a>
+
+
+                                                        <div class="product-cart-info" style="min-height: 112px">
+                                                            <p style="display: none"></p>
+                                                            <p class="product-cart-info-brand">Frens</p>
+                                                            <h3 class="product-cart-info-title">Gus</h3>
+                                                            <p class="product-cart-info-price">
+                                                                <span style="font-size: 13px">9.99$</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-cart">
+                                                    <div class="product-cart-item">
+                                                        <div class="product-cart-wishlist-btn">
+                                                            <span class="wishlist-icon">
+                                                                <i class="bx bx-heart"></i>
+                                                                <i class="bx bxs-heart"></i>
+                                                            </span>
+                                                        </div>
+                                                        <a href="" class="product-cart-image">
+                                                            <div class="product-cart-image-wrapper">
+                                                                <img src="../assets/img/gli6w9qftjsonupvooo8.png" alt="attention"
+                                                                    class="product-cart-image-img image-display"
+                                                                    style="height: 320px; width: 320px" />
+                                                            </div>
+                                                        </a>
+
+
+                                                        <div class="product-cart-info" style="min-height: 112px">
+                                                            <p style="display: none"></p>
+                                                            <p class="product-cart-info-brand">Frens</p>
+                                                            <h3 class="product-cart-info-title">Davina</h3>
+                                                            <p class="product-cart-info-price">
+                                                                <span style="font-size: 13px">11.99$</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-cart">
+                                                    <div class="product-cart-item">
+                                                        <div class="product-cart-wishlist-btn">
+                                                            <span class="wishlist-icon">
+                                                                <i class="bx bx-heart"></i>
+                                                                <i class="bx bxs-heart"></i>
+                                                            </span>
+                                                        </div>
+                                                        <a href="" class="product-cart-image">
+                                                            <div class="product-cart-image-wrapper">
+                                                                <img src="../assets/img/boston-fern-42361f.png" alt="attention"
+                                                                    class="product-cart-image-img image-display"
+                                                                    style="height: 320px; width: 320px" />
+                                                            </div>
+                                                        </a>
+
+
+                                                        <div class="product-cart-info" style="min-height: 112px">
+                                                            <p style="display: none"></p>
+                                                            <p class="product-cart-info-brand">Frens</p>
+                                                            <h3 class="product-cart-info-title">Bertie</h3>
+                                                            <p class="product-cart-info-price">
+                                                                <span style="font-size: 13px">3.99$</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-cart">
+                                                    <div class="product-cart-item">
+                                                        <div class="product-cart-wishlist-btn">
+                                                            <span class="wishlist-icon">
+                                                                <i class="bx bx-heart"></i>
+                                                                <i class="bx bxs-heart"></i>
+                                                            </span>
+                                                        </div>
+                                                        <a href="" class="product-cart-image">
+                                                            <div class="product-cart-image-wrapper">
+                                                                <img src="../assets/img/wxppoyh1ggedlvxpgbie.png" alt="attention"
+                                                                    class="product-cart-image-img image-display"
+                                                                    style="height: 320px; width: 320px" />
+                                                            </div>
+                                                        </a>
+
+
+                                                        <div class="product-cart-info" style="min-height: 112px">
+                                                            <p style="display: none"></p>
+                                                            <p class="product-cart-info-brand">Frens</p>
+                                                            <h3 class="product-cart-info-title">Zach</h3>
+                                                            <p class="product-cart-info-price">
+                                                                <span style="font-size: 13px">11.99$</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- grid -->
+            </div>
+        </div>
+    </div>
+</div>
+<div class="relative">
+    <div class="relative-heading">
+        <h1>Related products</h1>
+        <p>
+            <span class="icon-arrow icon-arrow-left">&#139;</span>
+            <span class="icon-arrow icon-arrow-right">&#155;</span>
+        </p>
+    </div>
+    <div class="relative-content">
+        <div class="relative-product">
+            <div class="relative-images">
+                <img src="../assets/img/pngstjs46jjwmifqyxtwx9x.png" alt="" class="relative-img" />
+            </div>
+            <div class="relative-details">
+                <div>
+                    <div class="relative-brand">Frens</div>
+                    <div class="relative-product-name">Tam</div>
+                    <span class="relative-price">64.99$</span>
+                </div>
+            </div>
+        </div>
+        <div class="relative-product">
+            <div class="relative-images">
+                <img src="../assets/img/golden-shield-fern-009162.png" alt="" class="relative-img" />
+            </div>
+            <div class="relative-details">
+                <div>
+                    <div class="relative-brand">Frens</div>
+                    <div class="relative-product-name">Beryl</div>
+                    <span class="relative-price">11.99$</span>
+                </div>
+            </div>
+        </div>
+        <div class="relative-product">
+            <div class="relative-images">
+                <img src="../assets/img/ikekd8grei0clcraz61s.png" alt="" class="relative-img" />
+            </div>
+            <div class="relative-details">
+                <div>
+                    <div class="relative-brand">Frens</div>
+                    <div class="relative-product-name">Venus</div>
+                    <span class="relative-price">9.99$</span>
+                </div>
+            </div>
+        </div>
+        <div class="relative-product">
+            <div class="relative-images">
+                <img src="../assets/img/oaflgahpo3ez2ewtlih6.png" alt="" class="relative-img" />
+            </div>
+            <div class="relative-details">
+                <div>
+                    <div class="relative-brand">Frens</div>
+                    <div class="relative-product-name">Pele</div>
+                    <span class="relative-price">9.99$</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <script src="../js/app.js"></script> -->
+<script>
+    const openFilterBtn = document.querySelector(".js-open-filter");
+    const sidebar = document.querySelector(".grid-item-sidebar-filter");
+    const closeFilterBtn = document.querySelector(".js-close-btn");
+    const downBtn = document.querySelector(".down");
+    const upBtn = document.querySelector(".up");
+    const dropdown = document.querySelector(
+        ".grid-item-sidebar-filter-content-item-dropdown"
+    );
+
+    openFilterBtn.addEventListener("click", () => {
+        alert("actived");
+        sidebar.classList.add("is-active");
+    });
+    closeFilterBtn.addEventListener("click", () => {
+        sidebar.classList.remove("is-active");
+    });
+
+    downBtn.addEventListener("click", () => {
+        dropdown.classList.remove("");
+        downBtn.classList.add("hide");
+        upBtn.classList.remove("hide");
+    });
+    upBtn.addEventListener("click", () => {
+        downBtn.classList.remove("hide");
+        upBtn.classList.add("hide");
+    });
+</script>
